@@ -803,7 +803,7 @@ if (_biblequiz.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
 let bibleUsageCount = 0;
 
 switch (command) {
-case '/biblequiz':
+case '//biblequiz':
     case '/mbq': {
     if (bibleUsageCount < 15) {
         if (_biblequiz.hasOwnProperty(m.sender.split('@')[0])) {
@@ -6398,6 +6398,7 @@ case '/igreels': {
         }
     }
     break;
+    }
 /*
 case '/igvid':
 case '/instavid': 
